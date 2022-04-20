@@ -1,0 +1,9 @@
+Selenium review class 01
+
+1. driver.get()
+2. driver.navigate().to()
+3. driver.quit()
+4. driver.close()
+5. maximize and fullscreen
+
+HTML

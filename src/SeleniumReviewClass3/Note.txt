@@ -1,0 +1,12 @@
+Selenium Review Class 3
+
+Alerts:
+       1) Web Based Alerts ---> html ---> can be dealt using selenium
+       2) JavaScript Alerts  --->
+       3) Windows Based alerts --->
+
+
+       Frame:
+  you need to switch to the frame in order to deal with the desired element
+
+  for switching you use driver

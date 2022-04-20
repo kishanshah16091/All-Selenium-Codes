@@ -1,0 +1,84 @@
+Selenium Class 1
+
+What is software testing?
+
+identify the correctness and quality of the application
+
+How many ways can we actually test?
+Manual
+Automation
+
+When do we go for automation?
+after manual testing is passes
+when environment is stable
+analyze our test suit and choose automation tools
+
+What automation tools do we know about?
+
+Selenium, TestNG, Cucumber, Katalon Studio, UFT/QTP
+
+Level of testing
+
+unit testing --- developer test
+Integration testing
+Acceptance testing --- clint testing
+System testing
+
+
+
+Types of testing?
+
+Functional testing
+
+Non-Functional testing
+- Performance testing
+- Security testing
+
+
+
+
+What is Selenium?
+
+ a set of tools which help us to automate web applications. it is mainly used for functional testing.
+
+Selenium components:
+
+Selenium IDE -- > integrate development environment
+Selenium Grid - -> Firefox plugin
+Selenium WebDriver
+Selenium RC - -> Remote control
+
+What is selenium WebDriver?
+open source automation tool which allows us to perform action on web applications
+WebDriver is an Interface
+
+Advantages od Selenium WebDriver:
+Open source
+Works with different browsers and supports cross browsing testing
+works with different programing language ---> java, javaScript, Ruby, Python
+OS independent --> iOS, window, Linux
+
+Disadvantages of Selenium WebDriver:
+Cannot test desktop application
+No technical support
+No built in reports
+cannot test captchas, images or videos
+
+get() vs navigate()
+-- navigate can go back and forward and refresh
+-- get() will wait for the page to fully load where navigate() will not
+-- get() will not keep the history of the browser where navigate() will
+
+close() quit()
+-- close() will close the current tab
+-- quit() will quit the whole browser
+
+fullscreen() vs maximize()
+-- maximize () will maximize the browser, and you will still be able to see the control panel(back and forward, bookmark
+and fullscreen(0 will maximize the whole application
+
+
+
+
+
+

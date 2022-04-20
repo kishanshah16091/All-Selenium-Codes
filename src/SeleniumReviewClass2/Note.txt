@@ -1,0 +1,29 @@
+Selenium Review class 2
+
+Advance xpath:
+get to the nearest sibling parent or ancestor first and then have to the desired tag
+following sibling:
+//label[@name='myid']/following-sibling::input
+hey get me tag with name "label" whose attribute "name" has value "myid" and then get me its following-sibling
+
+Example: //label[text()='Enter message']/following-sibling::input
+
+Preceding-sibling
+the sibling that is above
+Example:
+//input[@id='user-message']/preceding-sibling::label
+
+parent:
+hey get me the tag "label" with the text "Enter message" and get me its parent "div"
+//label[text()='Enter message']/parent::div
+
+ancestor
+//label[text()='Enter message']/ancestor::form
+
+hey get me tag with name "label" with the text "Enter message" and then get me it's ancestor "form"
+
+-----------------------------------------------------------------------------------------------------------------------
+
+driver.findElement(By.xpath/css/name/id/tag/etc(""));
+
+------------------------------------------------------ Radio Buttons __________________________________________________

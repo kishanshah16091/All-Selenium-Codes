@@ -1,0 +1,27 @@
+Selenium Class7
+
+Handling multiple windows (tab):
+In order to handel multiple windows we will be using:
+getWindowHandel()
+getWindowHandles()
+
+WindowHandle:
+             Is a unique ID that holds the address of the window or tab
+             It is approximately a 40 alphanumeric character ID
+
+synchronization:
+            Is the process of bringing the speed of two or more components the same level
+            In this case we are bringing out script and page load to the sane speed level
+
+Thread.sleep(); --- static wait / unconditional wait
+
+
+Types of selenium waits:
+Implicit wait
+Explicit wait
+fluent wait
+
+Implicit wait:
+               It tells the webDriver to wait for certain amount of time before throwing an exception
+               It will only be written once and will be applied to the whole session of the execution
+               we can sy that implicit wait is a global wait
