@@ -27,3 +27,16 @@ hey get me tag with name "label" with the text "Enter message" and then get me i
 driver.findElement(By.xpath/css/name/id/tag/etc(""));
 
 ------------------------------------------------------ Radio Buttons __________________________________________________
+
+---drop-downs--
+whenever we have drop-downs that are made using select class
+we can use select class in selenium to deal with them
+
+the process:
+1. get to the select tag for that drop-down using you driver.findElement
+2.create an instance of Select class and pass your webElement
+3.we can select any option by value/ by visible text /by index
+
+byvalue;
+byindex;
+byvisibletext;

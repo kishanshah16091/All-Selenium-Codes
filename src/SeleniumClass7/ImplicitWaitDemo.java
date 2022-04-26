@@ -18,5 +18,7 @@ public class ImplicitWaitDemo {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         WebElement startPracticingButton = driver.findElement(By.id("btn_basic_example"));
         startPracticingButton.click();
+
+
     }
 }

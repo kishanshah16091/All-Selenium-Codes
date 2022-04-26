@@ -6,4 +6,92 @@ Selenium review class 01
 4. driver.close()
 5. maximize and fullscreen
 
-HTML
+
+HTML:
+
+Locators :
+
+
+
+Xpath:
+
+
+Absolute:
+
+
+Relative:
+//input[@id='userName']
+
+Starts-with:
+we can use start with
+in the xpath
+//tagname[start-with(@attribute,"starting of the attribute value")]
+//input[start-with(@id,"user")]
+Example:
+<input id="imageno.1"/>
+//input[start-with(@id,"imageno")]
+
+contains:
+//tagname[contains(@id,'some portion of value')];
+
+Example:
+<input id="imageno.1"/>
+//input[contains(@id,"mageno")]
+
+
+by text:
+
+//tagName[text()="abcd"]
+
+
+
+css selector:
+
+tagname[attribute= "attribute value"]
+
+shotcuts:
+id = #
+
+<input @id="rotwiller"/>
+input#rotwiller
+
+class = .
+
+<input @id="rotwiller" @class="bigdogs"/>
+input.bigdogs
+
+
+
+
+
+
+hey dom
+bring us the tag "input"       --> //input
+who has an attribute id       ---> [@id]
+and its value is  userName     --->[@id='userName']
+
+
+
+
+<html>
+	<body>
+			<h1>hello<h1>
+			<h1>
+			    <p1>well though<p1>
+			<h1>
+			<h1>hiwert<h1>
+			<h1>hiwtwerrt<h1>
+			<h1>hiwetwet<h1>
+	</body>
+</html>
+
+
+html/body/h1[]/p1
+
+
+
+/html/body/h1[]
+
+
+
+/html/body/h1
